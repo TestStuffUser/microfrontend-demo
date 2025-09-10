@@ -1,0 +1,1 @@
+{ "name": "microfrontend-demo", "private": true, "workspaces": [ "app1", "app2", "root-config" ] }
