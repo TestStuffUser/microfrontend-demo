@@ -1,1 +1,1 @@
-{ "name": "microfrontend-demo", "private": true, "workspaces": [ "app1", "app2", "root-config" ] }
+{\n  "name": "microfrontend-demo",\n  "private": true,\n  "workspaces": [\n    "app1",\n    "app2",\n    "root-config"\n  ]\n}
