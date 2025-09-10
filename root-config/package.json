@@ -1,0 +1,16 @@
+{
+  "name": "root-config",
+  "version": "1.0.0",
+  "main": "root-config.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "single-spa": "^5.9.3"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

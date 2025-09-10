@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Microfrontend Demo (root-config)</title>
+  <script type="importmap">
+    {
+      "imports": {
+        "app1": "/app1/dist/main.js",
+        "app2": "/app2/dist/main.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="root-config-root"></div>
+  <div id="app1-root"></div>
+  <div id="app2-root"></div>
+  <script type="module" src="/root-config/root-config.ts"></script>
+</body>
+</html>
